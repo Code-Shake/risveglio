@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.possibile.com/",
+      "url": "https://www.possibile.com/",
+      "name": "Possibile - L'uguaglianza come motore, la diversità come innovazione.",
+      "isPartOf": {
+        "@id": "https://www.possibile.com/#website"
+      },
+      "about": {
+        "@id": "https://www.possibile.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.possibile.com/#primaryimage"
+      },
+      "image": {
+        "@id": "https://www.possibile.com/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.possibile.com/wp-content/uploads/2022/01/ICONE-BOX01-01-01-p7hy6chh9nt6t8dq74vnmn9ov6w0tcnnydg3c2q7dc.png",
+      "datePublished": "2022-01-22T10:05:37+00:00",
+      "dateModified": "2024-10-01T09:13:48+00:00",
+      "description": "L'uguaglianza come motore, la diversità come innovazione.",
+      "breadcrumb": {
+        "@id": "https://www.possibile.com/#breadcrumb"
+      },
+      "inLanguage": "it-IT",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.possibile.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "it-IT",
+      "@id": "https://www.possibile.com/#primaryimage",
+      "url": "https://www.possibile.com/wp-content/uploads/2022/01/ICONE-BOX01-01-01-p7hy6chh9nt6t8dq74vnmn9ov6w0tcnnydg3c2q7dc.png",
+      "contentUrl": "https://www.possibile.com/wp-content/uploads/2022/01/ICONE-BOX01-01-01-p7hy6chh9nt6t8dq74vnmn9ov6w0tcnnydg3c2q7dc.png",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.possibile.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.possibile.com/#website",
+      "url": "https://www.possibile.com/",
+      "name": "Possibile",
+      "description": "L&#039;uguaglianza come motore, la diversità come innovazione.",
+      "publisher": {
+        "@id": "https://www.possibile.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.possibile.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "it-IT"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.possibile.com/#organization",
+      "name": "Possibile",
+      "url": "https://www.possibile.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "it-IT",
+        "@id": "https://www.possibile.com/#/schema/logo/image/",
+        "url": "https://www.possibile.com/wp-content/uploads/2022/01/Logo_Possibile_Orizzontale-Bianco-350x55-1.png",
+        "contentUrl": "https://www.possibile.com/wp-content/uploads/2022/01/Logo_Possibile_Orizzontale-Bianco-350x55-1.png",
+        "width": 350,
+        "height": 55,
+        "caption": "Possibile"
+      },
+      "image": {
+        "@id": "https://www.possibile.com/#/schema/logo/image/"
+      }
+    }
+  ]
+}
