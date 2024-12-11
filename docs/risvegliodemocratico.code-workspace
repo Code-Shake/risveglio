@@ -1,9 +1,13 @@
 {
 	"folders": [
 		{
+			"path": "./docs",
+			"name": "docs"
+		},
+		{
 			"path": ".",
 			"name": "risvegliodemocratico"
-		}
+		},
 	],
 	"settings": {
 		"liveServer.settings.port": 5502
