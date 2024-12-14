@@ -1,12 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "./docs",
 			"name": "docs"
+			"path": "./docs",
 		},
 		{
+			"name": "risveglio"
 			"path": ".",
-			"name": "risvegliodemocratico"
 		}
 	],
 	"settings": {
