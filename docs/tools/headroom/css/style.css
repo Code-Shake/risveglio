@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 95px 0px 0px 0px;
+  background: #f2f2f2;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #4357ad;
+}
+
+.menu {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu .logo {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.menu .logo h1 {
+  vertical-align: top;
+  font-size: 22px;
+  line-height: 45px;
+}
+
+.menu .btn-menu {
+  display: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.menu .logo:hover {
+  background: #3f60aa;
+}
+
+.menu .enlaces {
+  display: inline-block;
+  text-align: right;
+}
+
+.logo a,
+.menu .enlaces a {
+  display: inline-block;
+  padding: 1em;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.menu .enlaces i {
+  margin-right: 5px;
+}
+
+.menu .enlaces a:hover {
+  color: #4357ad;
+  background: #f2f2f2;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+main article h1 {
+  margin-bottom: .5em;
+  font-weight: normal;
+}
+
+main article hr {
+  height: 2px;
+  margin-bottom: 1em;
+  border: none;
+  background: #4357ad;
+}
+
+main article p {
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+
+/* efectos del menu */
+.headroom {
+  transition: all .3s;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  background: #000;
+  transform: translateY(-100%);
+}
+/* fine efectos del menu */
+
+.bars{
+  background: red;
+}
+
+.imes{
+  color: #000;
+  background: yellow;
+}
+
+/* mediaquery */
+@media (max-width : 700px) {
+/* mediaquery */
+
+  header .menu {
+    flex-direction: column;
+  }
+
+  header .menu .logo{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+  }
+
+  header .menu .logo .btn-menu {
+    display: inline-block;
+  }
+
+  header .menu .enlaces {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    }
+
+/* fine mediaquery */
+}
+/* fine mediaquery */
